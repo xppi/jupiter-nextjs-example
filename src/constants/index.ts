@@ -14,7 +14,7 @@ export const CHAIN_ID = ENV === 'mainnet-beta'
             : ENVChainId.MainnetBeta
 export const SOLANA_RPC_ENDPOINT = ENV === "devnet"
     ? 'https://api.devnet.solana.com'
-    : "https://solana-api.projectserum.com";
+    : "https://rpc.helius.xyz/?api-key=e35cb8cf-ba28-4b2c-a685-5ac0f9753b53";
 
 // Token Mints
 export const INPUT_MINT_ADDRESS =
