@@ -26,7 +26,7 @@ const WalletProvider = dynamic(
 );
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const endpoint = useMemo(() => "https://solana-api.projectserum.com", []);
+  const endpoint = useMemo(() => "https://rpc.helius.xyz/?api-key=e35cb8cf-ba28-4b2c-a685-5ac0f9753b53", []);
 
   return (
     <ConnectionProvider endpoint={endpoint}>
