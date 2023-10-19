@@ -65,17 +65,13 @@ const SiteDescription = () => {
                 <div className="text-center hero-content">
                     <div>
                         <h1 className="mb-5 text-5xl font-bold">
-                            Hello Solana <SolanaLogo /> World!
+                            SmashSwap - <SolanaLogo /> Solana Aggregator!
                         </h1>
 
-                        <div className="max-w-md">
+                        <div className="">
                             <p className="mb-5">
-                                This scaffold includes awesome tools for rapid development and
-                                deploy dapps to Solana: Next.JS, TypeScript, TailwindCSS,
-                                Daisy UI.
+                                This is a Basic test from xppi, to test jup's core features
                             </p>
-                            <p className="mb-5">Solana wallet adapter is connected and ready to use.</p>
-                            <p className="mb-5">Environment: {ENV}</p>
                             {publicKey
                                 ? (
                                     <>Your address: {publicKey.toBase58()}</>
